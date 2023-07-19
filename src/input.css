@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-  .my-custom-style {
-    /* ... */
+  .headings-type {
+    @apply rounded-b-lg shadow-md;
   }
 }
