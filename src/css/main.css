@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -191,6 +191,10 @@ select,
 textarea {
   font-family: inherit;
   /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
   font-size: 100%;
   /* 1 */
   font-weight: inherit;
@@ -342,6 +346,14 @@ menu {
 }
 
 /*
+Reset default styling for dialogs.
+*/
+
+dialog {
+  padding: 0;
+}
+
+/*
 Prevent resizing textareas horizontally by default.
 */
 
@@ -420,6 +432,25 @@ video {
 
 [hidden] {
   display: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  background: url("../images/bg-hero-desktop.svg") no-repeat center;
+  background-size: cover;
+  background-color: hsl(193, 100%, 96%);
+}
+
+@media (max-width: 768px) {
+  main {
+    background: url("../images/bg-hero-mobile.svg") no-repeat center;
+    background-size: cover;
+    background-color: hsl(193, 100%, 96%);
+  }
 }
 
 *, ::before, ::after {
@@ -522,34 +553,37 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
+.container {
+  width: 100%;
 }
 
-.relative {
-  position: relative;
+@media (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
 }
 
-.left-0 {
-  left: 0px;
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
 }
 
-.top-0 {
-  top: 0px;
+@media (min-width: 976px) {
+  .container {
+    max-width: 976px;
+  }
 }
 
-.z-40 {
-  z-index: 40;
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
 }
 
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-0 {
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .flex {
@@ -558,10 +592,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.w-52 {
-  width: 13rem;
 }
 
 .w-screen {
@@ -580,69 +610,42 @@ video {
   border-radius: 9999px;
 }
 
-.border {
-  border-width: 1px;
-}
-
-.border-transparent {
-  border-color: transparent;
-}
-
-.bg-transparent {
-  background-color: transparent;
-}
-
-.bg-very-pale-cyan {
-  --tw-bg-opacity: 1;
-  background-color: hsl(193 100% 96% / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-hero-desktop {
-  background-image: url('../images/bg-hero-desktop.svg');
+.p-3 {
+  padding: 0.75rem;
 }
 
-.bg-cover {
-  background-size: cover;
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
-.bg-center {
-  background-position: center;
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.duration-300 {
-  transition-duration: 300ms;
-}
-
-.hover\:border:hover {
-  border-width: 1px;
-}
-
-.hover\:bg-transparent:hover {
-  background-color: transparent;
-}
-
-.hover\:text-white:hover {
+.text-black {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-@media (min-width: 768px) {
-  .md\:max-w-screen-lg {
-    max-width: 1024px;
-  }
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }

@@ -1,0 +1,16 @@
+{
+  "name": "huddle-landing-page-with-alternating",
+  "version": "1.0.0",
+  "description": "![Project image](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/css/input.css -o ./src/css/main.css",
+		"watch": "tailwindcss -i ./src/css/input.css -o ./src/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
