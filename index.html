@@ -16,23 +16,23 @@
 
 <body>
 
-	<main class="w-screen	h-screen">
+	<main class="w-screen	h-screen sm:h-full">
 
 		<header class=" flex items-center justify-between py-8 px-6  md:px-10 lg:px-16 xl:px-24 2xl:px-40">
 
-			<img class="w-36" src="./src/images/logo.svg" alt="Logo da Huddle">
+			<img class="w-36 lg:w-60" src="./src/images/logo.svg" alt="Logo da Huddle">
 
 			<a href="#"
-				class="p-3 px-8 py-2 text-black font-normal hover:font-bold bg-white rounded-full shadow-xl hover:bg-opacity-75">
+				class="p-3 px-8 py-2 lg:px-16 lg:py-4 text-black font-normal hover:font-bold bg-white rounded-full shadow-xl hover:bg-opacity-75">
 				Try It Free
 			</a>
 
 		</header>
 
 		<section
-			class="flex flex-col justify-center py-6 px-6  md:px-10 lg:px-16 lg:flex-row lg:items-center lg:h-4/5	 xl:px-24 2xl:px-40">
+			class="flex flex-col justify-center py-6 px-6 md:px-10 lg:px-16 lg:flex-row lg:items-center lg:h-4/5	 xl:px-24 2xl:px-40">
 
-			<div class="flex flex-col gap-y-5 lg:h-full lg:justify-center lg:gap-y-7">
+			<div class="flex flex-col gap-y-5 lg:h-full lg:justify-center lg:gap-y-10">
 				<h1 class="sm:text-center sm:text-3xl lg:text-left lg:4xl">
 					Build The Community Your Fans Will Love
 				</h1>
@@ -46,12 +46,60 @@
 				</button>
 			</div>
 
-			<img class="lg:w-7/12 lg:ml-3" src="./src/images/illustration-mockups.svg" alt="">
+			<img class="lg:w-7/12 lg:ml-5" src="./src/images/illustration-mockups.svg" alt="Illustration mockups">
 
 		</section>
 
 	</main>
 
+	<section class="bg-white px-3 py-20 flex flex-col items-center md:px-10 lg:px-16 xl:px-24 2xl:px-40">
+
+		<div class="box  lg:flex-row-reverse lg:justify-around">
+
+			<img class="w-1/3" src="./src/images/illustration-grow-together.svg" alt="Grow together">
+
+			<div class="mt-12 lg:w-1/3">
+				<h2 class="text-center mb-6 md:text-xl lg:text-left lg:text-2xl
+				">Grow Together</h2>
+				<p class="text-center text-neutral-medium md:text-lg lg:text-left lg:text-xl">
+					Generate meaningful discussions with your audience and build a strong, loyal community.
+					Think of the insightful conversations you miss out on with a feedback form.
+				</p>
+			</div>
+
+		</div>
+
+		<div class="box my-7 lg:flex-row lg:justify-around">
+
+			<img class="w-1/3" src="./src/images/illustration-flowing-conversation.svg" alt="Flowing conversations">
+
+			<div class="mt-12 lg:w-1/3">
+				<h2 class="text-center mb-6 md:text-xl lg:text-left lg:text-2xl
+				">Flowing Conversations</h2>
+				<p class="text-center text-neutral-medium md:text-lg lg:text-left lg:text-xl">
+					You wouldn't paginate a conversation in real life, so why do it online? Our threads
+					have just-in-time loading for a more natural flow.
+				</p>
+			</div>
+
+		</div>
+
+		<div class="box lg:flex-row-reverse lg:justify-around">
+
+			<img class="w-1/3" src="./src/images/illustration-your-users.svg" alt="Your users">
+
+			<div class="mt-12 lg:w-1/3">
+				<h2 class="text-center mb-6 md:text-xl lg:text-left lg:text-2xl
+				">Your Users</h2>
+				<p class="text-center text-neutral-medium md:text-lg lg:text-left lg:text-xl">
+					It takes no time at all to integrate Huddle with your app's authentication solution.
+					This means, once signed in to your app, your users can start chatting immediately.
+				</p>
+			</div>
+
+		</div>
+
+	</section>
 
 </body>
 

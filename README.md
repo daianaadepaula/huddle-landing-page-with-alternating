@@ -1,45 +1,32 @@
-# Frontend Mentor - Huddle landing page with alternating feature blocks solution
+# Huddle landing page with alternating feature blocks solution
 
-![Project image](./design/desktop-preview.jpg)
+<div align="center" >
+  <img src="./design/desktop-preview.jpg" alt="Project image" height="400px">
+</div>
 
 ## About the project
 
-This is a shopping cart project developed with React Js. It allows you to list products on the screen, search for products consuming the Mercado Livre API, add products and remove products from the cart.
-
-## Table of contents
-
-- [Overview](#overview)
-  - [Functionalities](#functionalities)
-- [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Installation](#installation)
-  - [Frontend](#frontend)
-- [Author](#author)
-- [License](#license)
-
-
+Engaging landing page is built with HTML and CSS, combining elegant design elements to highlight the core message. Using responsive layouts and attractive typography, the page provides an impactful experience that encourages immediate action.
 ## Overview
 
 ### Functionalities
 
-- Product listing
-- Product search
-- Adding products to the cart
-- Removing products from the cart
+The homepage features intuitive navigation that directs visitors to the featured section and sign-up form, simplifying interaction and maximizing conversions. Eye-catching and eye-catching visuals highlight the unique value proposition, ensuring an engaging experience.
 
 ## Screenshot
 
 ### Layout mobile
 
-![Project mobile](./design/mobile-design.jpg)
- 
+<div align="center" >
+  <img src="./design/mobile-design.jpg" alt="Project mobile" height="300px">
+</div>
+
 ### Layout web
 
-![Project desktop](./design/desktop-design.jpg)
-![Project desktop](./design/active-states.jpg)
-
+<div align="center" >
+  <img src="./design/desktop-design.jpg" alt="Project desktop" width="300px">
+  <img src="./design/active-states.jpg" alt="Project desktop" width="300px">
+</div>
 ### Links
 
 - Netlify: [URL project](https://huddle-landing-page-daiana.netlify.app/)
