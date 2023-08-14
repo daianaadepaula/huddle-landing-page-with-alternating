@@ -483,6 +483,16 @@ h1,
   bottom: -5%;
 }
 
+.circle-social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
 @media (max-width: 768px) {
   main {
     background: url("../images/bg-hero-mobile.svg") no-repeat center;
@@ -604,6 +614,10 @@ h1,
   margin-bottom: 1.5rem;
 }
 
+.mr-7 {
+  margin-right: 1.75rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -612,12 +626,24 @@ h1,
   margin-top: 3rem;
 }
 
-.flex {
-  display: flex;
+.mt-20 {
+  margin-top: 5rem;
 }
 
-.h-52 {
-  height: 13rem;
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.flex {
+  display: flex;
 }
 
 .h-screen {
@@ -628,8 +654,24 @@ h1,
   width: 33.333333%;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
+.w-2\/6 {
+  width: 33.333333%;
+}
+
 .w-36 {
   width: 9rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-screen {
@@ -640,8 +682,16 @@ h1,
   flex-direction: column;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -650,6 +700,10 @@ h1,
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .gap-y-5 {
@@ -713,6 +767,10 @@ h1,
   padding-bottom: 2rem;
 }
 
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
 .pb-64 {
   padding-bottom: 16rem;
 }
@@ -721,8 +779,32 @@ h1,
   padding-top: 6rem;
 }
 
+.pt-32 {
+  padding-top: 8rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-normal {
@@ -737,6 +819,11 @@ h1,
 .text-neutral-medium {
   --tw-text-opacity: 1;
   color: hsl(208 11% 55% / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-xl {
@@ -789,6 +876,10 @@ h1,
 }
 
 @media (min-width: 580px) {
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
+
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -831,6 +922,14 @@ h1,
     width: 33.333333%;
   }
 
+  .lg\:w-1\/5 {
+    width: 20%;
+  }
+
+  .lg\:w-1\/6 {
+    width: 16.666667%;
+  }
+
   .lg\:w-60 {
     width: 15rem;
   }
@@ -857,6 +956,10 @@ h1,
 
   .lg\:justify-center {
     justify-content: center;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 
   .lg\:justify-around {

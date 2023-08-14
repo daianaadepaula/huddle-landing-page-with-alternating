@@ -52,6 +52,16 @@
     bottom: -5%;
   }
 
+  .circle-social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+  }
+
   @media (max-width: 768px) {
     main {
       background: url("../images/bg-hero-mobile.svg") no-repeat center;
