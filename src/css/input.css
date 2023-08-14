@@ -33,7 +33,6 @@
 
   .btn {
     display: block;
-    /* margin: 0 auto; */
     padding: 12px 86px;
     color: #fff;
     background-color: hsl(322, 100%, 66%);
@@ -44,6 +43,13 @@
   .btn:hover {
     opacity: 0.6;
     font-weight: 600;
+  }
+
+  .box-float {
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: -5%;
   }
 
   @media (max-width: 768px) {
